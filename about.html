@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pondicherry University</title>
+    <style>
+        .core{
+            background-color: rgb(227, 215, 215);
+        }
+
+    .topbar {
+      background: #eee;
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 10px;
+      font-size: 0.9em;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .top-links a {
+      margin-right: 10px;
+      color: #333;
+    }
+
+    .search-box {
+      padding: 4px;
+    }
+
+    .navbar {
+      background-color: #4C5594;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      flex-wrap: wrap;
+     position: sticky;
+     z-index: 999;
+    }
+
+    .nav {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .nav > li {
+      position: relative;
+    }
+
+    .nav > li > a {
+      display: block;
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+    }
+
+    .nav > li > a:hover {
+      background-color: #0059b3;
+    }
+
+    .mega-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: white;
+      width: 900px;
+      display: none;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      padding: 20px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+    }
+
+    .dropdown:hover .mega-menu {
+      display: flex;
+    }
+
+    .mega-column {
+      flex: 1;
+      padding: 0 15px;
+    }
+
+    .mega-column h3 {
+      font-size: 16px;
+      color: #003366;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    .mega-column a {
+      display: block;
+      text-decoration: none;
+      color: #333;
+      padding: 5px 0;
+    }
+
+    .mega-column a:hover {
+      color: #0059b3;
+    }
+    .logo {
+      font-size: 1.2em;
+      font-weight: bold;
+     position: sticky;
+    }
+     
+     .container {
+      max-width: 500px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #333;
+    }
+    .card {
+      background-color: #e6f0ff;
+      border-left: 6px solid #4a90e2;
+      padding: 16px;
+      margin-bottom: 16px;
+      border-radius: 8px;
+    }
+    .card h3 {
+      margin: 0 0 8px 0;
+      color: #4a90e2;
+    }
+    .card p {
+      margin: 0;
+      color: #555;
+    }
+
+    .organ{
+        background-color: #102928;
+    }
+footer {
+      background: #002147;
+      color: white;
+      
+    }
+
+    .footer-columns {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      
+    
+    }
+
+    .footer-columns div {
+      width: 30%;
+      min-width: 200px;
+    }
+
+    .footer-columns a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      font-size: 0.9em;
+    }
+    </style>
+</head>
+<body>
+    </div>
+<div class="All">
+  <div class="topbar">
+    <div class="top-links">
+      <a href="#">IQAC</a>
+      <a href="#">Alumni</a>
+      <a href="#">Library</a>
+      <a href="#">Distance Education</a>
+      <a href="#">Exam Wing</a>
+    </div>
+    <input type="text" placeholder="Search here..." class="search-box"/>
+  </div>
+
+  <header class="navbar">
+    
+    <div class="logo"><img src="https://www.pondiuni.edu.in/wp-content/uploads/2020/05/PU_Logo_Full.png"height="50px"/> </div>
+   <nav class="navbar2">
+    <ul class="nav">
+      <li class="dropdown">
+        <a href="#">About</a>
+        <div class="mega-menu">
+          <div class="mega-column">
+            <h3>OVERVIEW</h3>
+            <a href="#">Vision & Mission</a>
+            <a href="#">Organization Chart</a>
+            <a href="#">Acts & Statutes</a>
+            <a href="#">Academic Ordinance</a>
+            <a href="#">Administrative Ordinance</a>
+            <a href="#">Vital Statistics</a>
+            <a href="#">Internal Quality Assurance Cell</a>
+          </div>
+          <div class="mega-column">
+            <h3>LEADERSHIP</h3>
+            <a href="#">Vice-Chancellor</a>
+            <a href="#">Director, SEI&RR</a>
+            <a href="#">Director (C&CR)</a>
+            <a href="#">Registrar (i/c)</a>
+            <a href="#">Finance Officer (i/c)</a>
+            <a href="#">Controller Of Examinations</a>
+            <a href="#">Librarian</a>
+          </div>
+          <div class="mega-column">
+            <h3>ROLL OF HONOURS</h3>
+            <a href="#">Former Vice-Chancellors</a>
+          </div>
+        </div>
+      </li>
+      <li class="dropdown">
+  <a href="#">Administration</a>
+  <div class="mega-menu">
+    <div class="mega-column">
+      <h3>GOVERNING BODIES</h3>
+      <a href="#">The Court</a>
+      <a href="#">Executive Council</a>
+      <a href="#">Academic Council</a>
+      <a href="#">Finance Committee</a>
+      <a href="#">Planning Board</a>
+      <a href="#">Building Committee</a>
+    </div>
+    <div class="mega-column">
+      <h3>SECRETARIATS</h3>
+      <a href="#">Vice-Chancellor's Secretariat</a>
+      <a href="#">Director's Secretariat, SEI&RR</a>
+      <a href="#">Director's Secretariat, C&CR</a>
+      <a href="#">FINANCE OFFICER'S SECRETARIAT</a>
+      <a href="#">COE'S SECRETARIATS</a>
+    </div>
+    <div class="mega-column">
+      <h3>ADMINISTRATIVE UNITS</h3>
+      <a href="#">Registrar's Secretariat</a>
+      <a href="#">Office Of The Registrar</a>
+      <a href="#">Office Of The Finance Officer</a>
+      <a href="#">Legal Cell</a>
+      <a href="#">Public Grievance Cell</a>
+      <a href="#">Public Relations Wing</a>
+      <a href="#">Special Reservation Cell</a>
+    </div>
+    <div class="mega-column">
+      <h3>SECTIONS & WINGS</h3>
+      <a href="#">Establishment Section</a>
+      <a href="#">Establishment Section Non-Teaching</a>
+      <a href="#">Vigilance & Security Wing</a>
+      <a href="#">Engineering Wing</a>
+      <a href="#">Horticulture Wing</a>
+      <a href="#">Electrical Wing</a>
+      <a href="#">Academic Section</a>
+      <a href="#">Finance Section</a>
+      <a href="#">Purchase & Stores</a>
+    </div>
+    <div class="mega-column">
+      <h3>OTHERS</h3>
+      <a href="#">Planning & Development</a>
+      <a href="#">Guest House</a>
+      <a href="#">Examinations Wing</a>
+      <a href="#">Recruitment Cell</a>
+      <a href="#">Library</a>
+      <a href="#">Ananda Rangapillai Library</a>
+    </div>
+  </div>
+</li>
+      <li class="dropdown">
+  <a href="#">Academics</a>
+  <div class="mega-menu">
+    <div class="mega-column">
+      <h3>MAIN CAMPUS</h3>
+      <a href="#">Schools</a>
+      <a href="#">Departments/Centres</a>
+      <a href="#">Programs</a>
+      <a href="#">Regulations</a>
+      <a href="#">PU Syllabus</a>
+      <a href="#">Conversion Of Grade To Percentage - PU</a>
+      <a href="#">Academic Calendar - PU</a>
+      <a href="#">Programs - All Campuses</a>
+    </div>
+    
+    <div class="mega-column">
+      <h3>OTHER CAMPUSES</h3>
+      <a href="#">Karaikal Campus</a>
+      <a href="#">Port Blair Campus</a>
+      <a href="#">Lakshadweep Campus</a>
+      <a href="#">COMMUNITY COLLEGE</a>
+      <a href="#">Community College (Puducherry)</a>
+      <a href="#">Community College (Mahe)</a>
+    </div>
+
+    <div class="mega-column">
+      <h3>AFFILIATIONS</h3>
+      <a href="#">College Development Council</a>
+      <a href="#">Affiliated Colleges</a>
+      <a href="#">Affiliation Procedures</a>
+      <a href="#">Regulations (Affiliations)</a>
+      <a href="#">Syllabus (Affiliated Institutions)</a>
+      <a href="#">Conversion Of Grade To Percentage</a>
+      <a href="#">Academic Calendar - Affiliated Institutions</a>
+    </div>
+
+    <div class="mega-column">
+      <h3>INTERNATIONAL RELATIONS</h3>
+      <a href="#">International Relations - Study in India</a>
+      <a href="#">Collaborations</a>
+      <a href="#">MoUs</a>
+    </div>
+
+    <div class="mega-column">
+      <h3>OTHERS</h3>
+      <a href="#">Students Welfare</a>
+      <a href="#">Directorate Of Physical Education & Sports</a>
+      <a href="#">ViksitBharat@2047</a>
+    </div>
+  </div>
+</li>
+      <li class="dropdown">
+  <a href="#">Admissions</a>
+  <div class="mega-menu">
+    <div class="mega-column">
+      <h3>ADMISSIONS</h3>
+      <a href="#">Admissions 2025-26</a>
+      <a href="#">Admissions 2024-25</a>
+    </div>
+  </div>
+</li>
+      <li class="dropdown">
+  <a href="#">Research</a>
+  <div class="mega-menu">
+    <div class="mega-column">
+      <h3>RESEARCH</h3>
+      <a href="#">Research And Development Cell</a>
+      <a href="#">Publications</a>
+      <a href="#">Intellectual Property Rights (IPR)</a>
+      <a href="#">Centre</a>
+    </div>
+  </div>
+</li>
+      <li class="dropdown">
+  <a href="#">Campus Life</a>
+  <div class="mega-menu">
+    <div class="mega-column">
+      <h3>CAMPUS LIFE</h3>
+      <a href="#">Health Centre</a>
+      <a href="#">Reading Hall</a>
+      <a href="#">Play Grounds</a>
+      <a href="#">Hostels</a>
+      <a href="#">Canteen</a>
+      <a href="#">Shopping Complex</a>
+      <a href="#">Gym</a>
+      <a href="#">Day Care Centre & Pre-Primary School</a>
+      <a href="#">Post Office</a>
+      <a href="#">Bank</a>
+      <a href="#">NCC/NSS</a>
+      <a href="#">Green Campus</a>
+    </div>
+  </div>
+</li>
+      <li class="dropdown">
+  <a href="#">Discover PU</a>
+  <div class="mega-menu">
+    <div class="mega-column">
+      <h3>DISCOVER PU</h3>
+      <a href="#">Ananda Rangapillai Library</a>
+      <a href="#">Computer Centre</a>
+      <a href="#">Guest House</a>
+      <a href="#">Educational Multimedia Research Centre</a>
+      <a href="#">Puduvai Vaani - Community Radio Station</a>
+      <a href="#">Auditorium</a>
+      <a href="#">Central Instrumentation Facility</a>
+      <a href="#">Central Maintenance Workshop</a>
+      <a href="#">Central Animal House Facility</a>
+      <a href="#">Centre For Sustainability And Climate Studies</a>
+      <a href="#">UNESCO Chair On Renewable And Clean Energy</a>
+      <a href="#">Placement Cell</a>
+      <a href="#">Hindi Cell</a>
+    </div>
+  </div>
+</li>
+    </ul>
+  </nav>
+</header>   
+<center>
+
+    <h1>Vision</h1>
+    <p>Societal transformation through progressive education, impactful research and continuous innovation for Sustainable growth.</p>
+<h1>Mission</h1>
+<p>
+    <ul>
+        <li>Fostering excellence in education, innovation and entrepreneurship to create change agents for inclusive growth.</li>
+        <li>Encouraging inter-disciplinary studies and research to embrace the changing dimensions of the society and industry.</li>
+        <li>Providing academic and research facilities with ambience that conform to global benchmarks.</li>
+        <li>Partnering with national and international institutions for leveraging synergies.</li>
+        <li>Engaging communities through extension activities for neighbourhood development.</li>
+        <li>Supporting policy development and practices through continuous engagement with stakeholders.</li>
+    </ul>
+</p>
+<div class="core">
+    <p>
+        <ul>
+            <li>Promote equity, empowerment and excellence in all our actions</li>
+            <li>Uphold high ethical and moral standards in education and research</li>
+            <li>Inculcate creativity and continuous innovation among teachers and students</li>
+            <li>Provide academic freedom and boundary less learning environment</li>
+            <li>Maintain quality and performance at the core of all our achievements</li>
+            <li>Respect the dignity of all and provide equal opportunity to all stakeholders</li>
+            <li>Support inclusive growth and sustainable development of the society</li>
+        </ul>
+    </p>
+  </center>
+   
+
+  <div class="Organ">
+    <h1>Organisational chart</h1>
+  </div>
+  <img src="https://www.pondiuni.edu.in/wp-content/uploads/2020/05/org-chart-121113-1.png"width="900px">
+
+  <div class="academic">
+    <h1>Academic Ordiance</h1>
+    <img src="./AcademicOrdinance03072020.pdf"width="500px">
+  </div>
+  <center>
+    <footer>
+      <div class="footer-columns">
+        <div>
+          <h4>Contact</h4>
+          <p>Pondicherry University</p>
+          <p>Kalapet, Puducherry - 605014</p>
+          <p>Email: registrar@pondiuni.edu.in</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <p><a href="#">Admissions</a></p>
+          <p><a href="#">Departments</a></p>
+          <p><a href="#">Library</a></p>
+          <p><a href="#">NIRF</a></p>
+        </div>
+        <div>
+          <h4>Location</h4>
+          <p><a href="#">View on Map</a></p>
+        </div>
+      </div>
+         <p class="footer-bottom">&copy; 2025 Pondicherry University</p>
+    </fooret>
+  </center> 
+
+</body>
+</html>
